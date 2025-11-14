@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background: hsl(227, 75%, 14%); */
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h5, span{
+    color: #ffff;
+    font-weight: 500;
+}
+
+p{
+    color: #fffcfccb;
+    font-weight: 500;
+}
+
+body{
+    background: hsl(225, 78%, 16%);
+}
+
+.dark-mode{
+    background: #ffff;
+}
+
+header{
+    margin: 35px 100px;
+    border-radius: 12px;
+    background: #080f25;
+}
+
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+}
+
+.header-con .logo img{
+    height: 5vh;
+}
+
+.header-con .icon{
+    background: hsl(226, 24%, 28%);
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.extension{
+    margin: 25px 100px;
+}
+
+.write-up{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
+
+.options span{
+    background: hsl(226, 24%, 28%);
+    font-size: 15px;
+    padding: 10px 14px;
+    text-align: center;
+    margin: 0 4px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.options span:hover{
+    background: hsl(3, 71%, 56%);
+}
+
+.options .active{
+    background: hsl(3, 71%, 56%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.extension-con{
+    padding: 13px;
+    border: 1px solid #ffffff40;
+    background: hsl(226, 24%, 28%);
+    border-radius: 7px;
+    margin: 10px;
+    flex: 0 0 30%;
+}
+
+.top{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.top img{
+    height: 8vh;
+    margin-right: 15px;
+}
+
+.con-write-up h5{
+    font-size: 19px;
+}
+
+.con-write-up p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom span{
+    padding: 7px;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.bottom span:hover{
+    background: hsl(3, 71%, 56%);
+    border: none;
+}
+
+.bottom i{
+    color: hsl(3, 71%, 56%);
+    font-size: 33px;
+    cursor: pointer;
+    
+}
+.bottom .fa-toggle-off{
+    color: #ffff;
+    font-size: 33px;
+    cursor: pointer;
+    
+}
+
+#remove{
+    transition: all 0.4s ease;
+}
+
+.bottom i:active{
+    color: hsl(3, 71%, 56%);
+}

@@ -9,3 +9,10 @@ btns.forEach(btn => {
 });
 
 
+const actives = document.querySelectorAll('.active');
+
+actives.forEach(active => {
+    active.addEventListener("click", () =>{
+        active.classList.add('active');
+    });
+});

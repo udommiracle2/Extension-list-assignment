@@ -22,9 +22,9 @@ body{
     background: hsl(225, 78%, 16%);
 }
 
-.dark-mode{
+/* .dark-mode{
     background: #ffff;
-}
+} */
 
 header{
     margin: 35px 100px;
@@ -100,7 +100,7 @@ header{
     border: 1px solid #ffffff40;
     background: hsl(226, 24%, 28%);
     border-radius: 7px;
-    margin: 10px;
+    margin: 10px 0px;
     flex: 0 0 30%;
 }
 

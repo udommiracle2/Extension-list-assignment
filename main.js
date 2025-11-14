@@ -9,10 +9,11 @@ btns.forEach(btn => {
 });
 
 
-const actives = document.querySelectorAll('.active');
+const actives = document.querySelectorAll('.btn');
 
 actives.forEach(active => {
     active.addEventListener("click", () =>{
+        document.querySelector('.active')?.classList.remove('active');
         active.classList.add('active');
     });
 });

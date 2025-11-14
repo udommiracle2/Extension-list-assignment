@@ -229,7 +229,7 @@ header{
     }
 
     .extension{
-       margin: 25px 25px;
+       margin: 25px;
     }
 
     .container{
@@ -244,10 +244,15 @@ header{
 @media (min-width: 1030px){
     .extension-con{
         flex: 0 0 30%;
+        margin: 10px 0;
     }
     
     .top img{
         height: 7vh;
+    }
+
+    .extension{
+        margin: 25px 100px;
     }
 
 }

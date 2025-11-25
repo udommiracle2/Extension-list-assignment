@@ -17,3 +17,10 @@ actives.forEach(active => {
         active.classList.add('active');
     });
 });
+
+
+const darkMode = document.getElementById('dark-mode');
+
+darkMode.addEventListener("click", () => {
+    btn.classList.toggle("");
+})

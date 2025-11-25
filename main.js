@@ -19,12 +19,17 @@ actives.forEach(active => {
 
 
 document.getElementById('dark-mode').onclick = () => {
+
     let body = document.getElementById('light');
     let icon = document.getElementById('sun');
+    let title = document.getElementById('title');
+
     if (body.style.background === 'white') {
         body.style.background = 'hsl(225, 78%, 16%)';
         body.style.color = 'white';
         body.style.transition = '0.5s';
+        
+        title.style.color = '#fff';
 
         icon.classList.remove('fa-sun');
         icon.classList.add('fa-moon');
@@ -33,9 +38,11 @@ document.getElementById('dark-mode').onclick = () => {
     else {
         body.style.background = 'white';
         body.style.color = 'hsl(225, 78%, 16%)';
+        body.style.transition = '0.5s';
+        
+        title.style.color = 'hsl(225, 78%, 16%)';
 
         icon.classList.add('fa-sun');
         icon.classList.remove('fa-moon');
     }
-
 }

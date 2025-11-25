@@ -19,8 +19,11 @@ actives.forEach(active => {
 });
 
 
-const darkMode = document.getElementById('dark-mode');
+const darkMode = document.querySelectorAll('#dark-mode');
 
-darkMode.addEventListener("click", () => {
-    btn.classList.toggle("");
-})
+darkMode.forEach( darkModes => {
+    darkModes.addEventListener("click", () => {
+        darkModes.classList.toggle("fa-moon");
+        darkModes.classList.toggle("fa-sun");
+    })
+});
